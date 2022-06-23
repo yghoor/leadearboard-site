@@ -76,3 +76,11 @@
   align-self: flex-end;
 }
 
+.page-header-text,
+.scoreboard-header-text,
+.score-item,
+.form-header,
+.button {
+  font-weight: 700;
+}
+

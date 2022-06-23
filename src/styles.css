@@ -17,3 +17,9 @@
   gap: 8vw;
 }
 
+#scoreboard {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+

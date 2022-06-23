@@ -34,3 +34,12 @@
   font-size: 48px;
 }
 
+.score-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  border-radius: 6px;
+  padding: 0;
+}
+

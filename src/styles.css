@@ -84,3 +84,11 @@
   font-weight: 700;
 }
 
+.button {
+  cursor: pointer;
+  font-size: 24px;
+  background: none;
+  border-color: black;
+  border-width: 3px 6px 6px 3px;
+  padding: 3px 16px;
+}

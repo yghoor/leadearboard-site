@@ -34,7 +34,7 @@
   font-size: 48px;
 }
 
-.score-list {
+#score-list {
   list-style-type: none;
   display: flex;
   flex-direction: column;

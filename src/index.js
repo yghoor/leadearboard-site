@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './styles.css';
 import addScore from './add-score.js';
 import populateBoard from './populate-board.js';

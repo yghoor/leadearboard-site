@@ -20,3 +20,7 @@ async function populate(id) {
   populateBoard(scores);
 }
 
+refreshButton.addEventListener('click', () => {
+  populate(gameId);
+});
+

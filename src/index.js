@@ -1,4 +1,5 @@
 import './styles.css';
+import addScore from './add-score.js';
 import populateBoard from './populate-board.js';
 
 const refreshButton = document.querySelector('.refresh-btn');

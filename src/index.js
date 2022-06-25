@@ -36,3 +36,4 @@ addScoreForm.addEventListener('submit', (event) => {
   addScoreForm.reset();
 });
 
+populate(gameId);

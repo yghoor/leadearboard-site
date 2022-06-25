@@ -25,3 +25,14 @@ refreshButton.addEventListener('click', () => {
   populate(gameId);
 });
 
+addScoreForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const currentName = addScoreForm.elements['user-name'].value;
+  const currentScore = addScoreForm.elements['user-score'].value;
+
+  addScore(currentName, currentScore, gameId);
+  refreshButton.click();
+  addScoreForm.reset();
+});
+

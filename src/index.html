@@ -19,15 +19,7 @@
           <button type="button" class="button refresh-btn">Refresh</button>
         </div>
 
-        <ul class="score-list">
-          <li class="score-item">Name: 100</li>
-          <li class="score-item">Name: 23</li>
-          <li class="score-item">Name: 50</li>
-          <li class="score-item">Name: 78</li>
-          <li class="score-item">Name: 34</li>
-          <li class="score-item">Name: 21</li>
-          <li class="score-item">Name: 45</li>
-        </ul>
+        <ul id="score-list"></ul>
       </section>
 
       <section id="add-score-section">
@@ -37,7 +29,7 @@
           <label>
             <input
               type="text"
-              id="title"
+              id="user-name"
               maxlength="60"
               placeholder="Your name"
               class="form-input"
@@ -48,7 +40,7 @@
           <label>
             <input
               type="text"
-              id="author"
+              id="user-score"
               maxlength="30"
               placeholder="Your score"
               class="form-input"

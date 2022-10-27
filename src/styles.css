@@ -34,7 +34,7 @@
   font-size: 48px;
 }
 
-.score-list {
+#score-list {
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -91,4 +91,8 @@
   border-color: black;
   border-width: 3px 6px 6px 3px;
   padding: 3px 16px;
+}
+
+.grey-background {
+  background-color: #ddd;
 }

@@ -1,0 +1,98 @@
+#page-body {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header-text {
+  font-size: 64px;
+}
+
+#main-page {
+  width: 100%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8vw;
+}
+
+#scoreboard {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.scoreboard-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scoreboard-header-text {
+  font-size: 48px;
+}
+
+#score-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  border-radius: 6px;
+  padding: 0;
+}
+
+.score-item {
+  font-size: 30px;
+  padding: 6px 12px;
+}
+
+#add-score-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-header {
+  font-size: 48px;
+}
+
+#add-score-form {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.form-input {
+  border: 5px solid black;
+  border-radius: 8px;
+  font-size: 30px;
+  padding: 6px 12px;
+}
+
+.submit-score-btn {
+  align-self: flex-end;
+}
+
+.page-header-text,
+.scoreboard-header-text,
+.score-item,
+.form-header,
+.button {
+  font-weight: 700;
+}
+
+.button {
+  cursor: pointer;
+  font-size: 24px;
+  background: none;
+  border-color: black;
+  border-width: 3px 6px 6px 3px;
+  padding: 3px 16px;
+}
+
+.grey-background {
+  background-color: #ddd;
+}
